@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Aman's Personal Webpage</title>
+  
+  <!-- Material Design CSS -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+  <style>
+    body {
+      display: flex;
+      min-height: 100vh;
+      flex-direction: column;
+      font-family: 'Roboto', sans-serif;
+    }
+    main {
+      flex: 1 0 auto;
+    }
+    .hero {
+      background-color: #1976D2;
+      color: white;
+      padding: 50px 0;
+      text-align: center;
+    }
+    .projects-section {
+      padding: 20px;
+    }
+    .project-card {
+      margin-top: 20px;
+    }
+    footer {
+      background-color: #1976D2;
+      color: white;
+      padding: 10px 0;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header Section -->
+  <header class="hero">
+    <h1>Aman - Android Developer</h1>
+    <p>Welcome to my personal webpage showcasing my projects.</p>
+  </header>
+
+  <!-- Projects Section -->
+  <main class="container projects-section">
+    <h4>My Projects</h4>
+    
+    <!-- Project 1 -->
+    <div class="row">
+      <div class="col s12 m6">
+        <div class="card project-card">
+          <div class="card-content">
+            <span class="card-title">Project 1: Android AI Assistant</span>
+            <p>This is a personal AI assistant app built with Android Studio using Machine Learning models to improve daily tasks.</p>
+          </div>
+          <div class="card-action">
+            <a href="https://github.com/aman-project-1" target="_blank">GitHub Repository</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Project 2 -->
+      <div class="col s12 m6">
+        <div class="card project-card">
+          <div class="card-content">
+            <span class="card-title">Project 2: Task Manager App</span>
+            <p>An Android app that helps users manage their tasks efficiently using reminders, priority levels, and progress tracking.</p>
+          </div>
+          <div class="card-action">
+            <a href="https://github.com/aman-project-2" target="_blank">GitHub Repository</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- Footer Section -->
+  <footer>
+    <p>Find me on GitHub: <a href="https://github.com/your-github" target="_blank" class="white-text">github.com/your-github</a></p>
+  </footer>
+
+  <!-- Materialize JS for interactive components -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+</body>
+</html>
